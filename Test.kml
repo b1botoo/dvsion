@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Custom Overlay</name>
+    <Placemark>
+      <name>Simple placemark</name>
+      <description>Attached to the ground.</description>
+      <Point>
+        <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.0848938459612,37.42257124044786,0
+              -122.084958580217,37.42211986177614,0
+              -122.084746823283,37.42210923258846,0
+              -122.0846654380499,37.42258017875052,0
+              -122.0848938459612,37.42257124044786,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
